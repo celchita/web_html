@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function updateTxtRange(valor){
+            document.getElementById('idrango').value = valor
+        }
+    </script>
+</head>
+<link rel="stylesheet" href="css/style.css">
+
+<body>
+    <div class="container">
+        <header></header>
+        <div id="principal">
+            <nav>
+                <ul>
+                    <a href="index.html">
+                        <li>HOME</li>
+                    </a>
+                    <a href="parrafos.html">
+                        <li>PARRAFOS</li>
+                    </a>
+                    <a href="enlaces.html">
+                        <li>ENLACES</li>
+                    </a>
+                    <a href="tablas.html">
+                        <li>TABLAS</li>
+                    </a>
+                    <a href="listas.html">
+                        <li>LISTAS</li>
+                    </a>
+                    <a href="formularios.html">
+                        <li>FORMULARIOS</li>
+                    </a>
+                    <a href="multimedia.html">
+                        <li>MULTIMEDIA</li>
+                    </a>
+                    <a href="formhtml5.html">
+                        <li>FORMHTML5</li>
+                    </a>
+                </ul>
+            </nav>
+            <div id="content">
+                <div id="formhtml5">
+                    <h1 class="txt-center">Formularios HTML5</h1>
+                    <form action="pagina.php" method="get">
+                        <fieldset>
+                            <legend>Form HTML5</legend>
+                            <p><input type="url" name="url" id="" placeholder="url"></p>
+                            <p><input type="email" name="email" id="" placeholder="email"></p>
+                            <p><input type="date" name="fecha" id="" placeholder="fecha"></p>
+                            <p><input type="datetime-local" name="fechahora" id="" placeholder="fecha hora"></p>
+                            <p><input type="file" name="archivo" id=""></p>
+                            <p><input type="image" src="img/heart.png" alt=""></p>
+                            <p><input type="week" name="semana" id=""></p>
+                            <p><input type="month" name="mes" id=""></p>
+                            <p><input type="number" name="numero" id="" placeholder="numero" min="0" max="100"></p>
+                            <p>
+                                <input type="range" name="rango" id="" min="0" max="100" step="10" 
+                                onchange="updateTxtRange(this.value)">
+                                <input type="text" class="disabled" id="idrango" name="textdesactivado" disabled>
+                            </p>
+                            <p><input type="hidden" name="kk"></p>
+
+
+
+
+
+
+                           <p><input type="submit" value="aceptar"></p>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+            <div class="cb"></div>
+        </div>
+        <footer>&copy; Adrián - S1DAW</footer>
+    </div>
+
+</body>
+
+</html>

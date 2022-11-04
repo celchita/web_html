@@ -1,0 +1,248 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: gainsboro;
+}
+
+.container{
+    background-color: aqua;
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 0 0 40px black; // esto es para darle sombra a la caja 
+}
+#principal{
+    background-color: blanchedalmond;
+}
+
+header{
+    height: 150px;
+    background-image: url(../img/h1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer{
+    font-size: 30px;
+    text-align: center;
+    background-color: aqua;
+    font-weight: bold; // poner negrita al texto 
+    padding: 16px;
+}
+
+nav{
+    width: 20%;
+    float: left;
+}
+
+#content{
+    width: 78%;
+    float: right;
+    padding: 0 1%;
+}
+
+.cb{
+    clear: both;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    
+    padding-top: 10px;
+}
+
+nav li {
+    font-size: 20px;
+    background-color: azure;
+    color: rgb(9, 59, 59);
+    border: solid 2px rgb(9, 59, 59);
+    padding: 10px 4px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+nav ul li:hover {
+    background-color: rgb(9, 59, 59);
+    color:  azure;
+    border-radius: 6px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#home {
+    text-align: center;
+    padding: 80px 0;
+}
+.txt-center {
+    text-align: center;
+}
+.tag {
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+}
+.txt-azul {
+    color: blue;
+}
+.caja {
+    width: 200px;
+    background-color: plum;
+    text-align: center;
+    padding: 50px;
+
+}
+ul.ldc li ul li {
+    list-style-type: square;
+}
+ul.ldc li ul li ul li {
+    list-style-type: circle;
+}
+ol.loc li ol li {
+    list-style-type: lower-roman;
+}
+ol.loc li ol li ol li {
+    list-style-type: upper-roman;
+}
+ol.loci li ol li {
+    list-style-image: url(../img/heart.png);
+}
+ol.loci li ol li ol li {
+    list-style-image: none;
+    list-style-type: lower-roman;
+}
+table.tb1 {
+    text-align: center;
+    margin: 0 auto;
+}
+.tr1 {
+    color: #008080;
+    background-color: white;
+}
+.tr2 {
+    background-color: white;
+    color: #008080;
+}
+.td1 {
+    background-color: white;
+    color: #008080;
+}
+.td2 {
+    background-color: white;
+    color: #008080;
+}
+.td3 {
+    background-color: white;
+    color: #008080;
+}
+.td4 {
+    background-color: white;
+    color: #008080;
+}
+.td5 {
+    background-color: white;
+    color: #008080;
+}
+.td6 {
+    background-color: white;
+    color: #008080;
+}
+.td7 {
+    background-color: white;
+    color: #008080;
+}
+.td12 {
+    background-color: #FF8080;
+}
+.td42 {
+    background-color: white;
+    color: #008080;
+}
+.td32 {
+    background-color: #FFA264;
+}
+.td52 {
+    background-color: #FFA264;
+}
+.td62 {
+    background-color: #00DF00;
+}
+.td13 {
+    background-color: #FFFF64;
+}
+.td53 {
+    background-color: #0080FF;
+}
+.td22 {
+    background-color: #00B95C;
+}
+.td54 {
+    background-color: #D2D26E;
+}
+table.tb2 th {
+    background-color: rgb(3, 3, 86);
+    color:  aqua;
+    font-size: 28px;
+}
+table.tb2 td {
+    background-color: aqua;
+    color:  rgb(3, 3, 86);
+}
+table.tb3 tr:nth-child(odd) {
+    background-color: rgb(198, 255, 236);
+}
+table.tb3 tr:nth-child(even) {
+    background-color: rgb(253, 207, 239);
+}
+form.registro {
+    width: 40%;
+}
+.user {
+    width: 99%;
+    background-color: aqua;
+}
+.nick {
+    width: 47%;
+    background-color: aqua;
+}
+.password {
+    width: 47%;
+    background-color: aqua;
+}
+.comentarios {
+    background-color: #FFFF64;
+    width: 99%;
+}
+.legend {
+    color: #FF8080;
+}
+.h3 {
+    color: #0080FF;
+}
+.aceptar {
+    color: #008080;
+}
+.select {
+    color: red;
+}
+.user2 {
+    background-color: aqua;
+}
+.password2 {
+    background-color: aqua;
+}
+.audio{
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+}
+.disabled {
+    width: 20px;
+}
+#formhtml5 form {
+    width: 40%;
+    margin: 0 auto;
+    padding: 10px;
+}
