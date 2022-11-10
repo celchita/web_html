@@ -180,19 +180,19 @@ table.tb1 {
     background-color: #D2D26E;
 }
 table.tb2 th {
-    background-color: rgb(3, 3, 86);
-    color:  aqua;
+    background-color: #FF8080;
+    color:  white;
     font-size: 28px;
 }
 table.tb2 td {
-    background-color: aqua;
-    color:  rgb(3, 3, 86);
+    background-color: white;
+    color:  #FF8080;
 }
 table.tb3 tr:nth-child(odd) {
-    background-color: rgb(198, 255, 236);
+    background-color: #D2D26E;
 }
 table.tb3 tr:nth-child(even) {
-    background-color: rgb(253, 207, 239);
+    background-color: aqua;
 }
 form.registro {
     width: 40%;
@@ -243,4 +243,29 @@ form.registro {
     width: 40%;
     margin: 0 auto;
     padding: 10px;
+}
+.legend2 {
+    color: #008080;
+}
+.numero {
+    background-color: #FFA264;
+    color: black;
+}
+.mes {
+    color: crimson;
+}
+.semana {
+    color: crimson;
+}
+.url {
+    background-color: aqua;
+}
+.email {
+    background-color: aqua;
+}
+.fecha {
+    color: green;
+}
+.fechaHora {
+    color: green;
 }
